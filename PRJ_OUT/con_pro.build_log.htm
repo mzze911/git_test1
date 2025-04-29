@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: m zze, 12345, LIC=D0D7S-L6PZ8-QDJKD-80FG7-KPD14-N1ZS5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+E:\TRAIN_WORKSPACE\TEST_v1.0\PRJ\con_pro.uvprojx
+Project File Date:  06/17/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling bsp_spi.c...
+..\DEVICE_BSP\bsp_spi.c(476): warning:  #177-D: variable "rp"  was declared but never referenced
+  	unsigned char *rp=data;
+..\DEVICE_BSP\bsp_spi.c(495): warning:  #550-D: variable "tick"  was set but never used
+  	unsigned long int tick=0;
+..\DEVICE_BSP\bsp_spi.c(539): warning:  #177-D: variable "rp"  was declared but never referenced
+  	unsigned char *rp=data;
+..\DEVICE_BSP\bsp_spi.c: 3 warnings, 0 errors
+compiling bsp_hard_oled.c...
+..\DEVICE_BSP\bsp_hard_oled.c(250): warning:  #177-D: variable "i"  was declared but never referenced
+  	u8 i,n;
+..\DEVICE_BSP\bsp_hard_oled.c(250): warning:  #177-D: variable "n"  was declared but never referenced
+  	u8 i,n;
+..\DEVICE_BSP\bsp_hard_oled.c(65): warning:  #177-D: function "bsp_oled_delay2"  was declared but never referenced
+  static void bsp_oled_delay2(void)  //500ns
+..\DEVICE_BSP\bsp_hard_oled.c: 3 warnings, 0 errors
+compiling bsp_dma.c...
+linking...
+Program Size: Code=15614 RO-data=7490 RW-data=140 ZI-data=6540  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil_v5\\ARM\ARMCC\bin\fromelf.exe --bin --output=..\PRJ_OUT\con_pro.bin ..\PRJ_OUT\con_pro.axf
+"..\PRJ_OUT\con_pro.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
