@@ -109,7 +109,7 @@ int main(void)
 		//------500ms定时工作任务---
 		if(FUNC_S_NB_DELAY_MS_STATE(&main_nb_delay_ms1)==1)
 		{
-//			BSP_IO_LED1=!BSP_IO_LED1;	
+			BSP_IO_LED1=!BSP_IO_LED1;	
 //			BSP_IO_LED2=!BSP_IO_LED2;
 //			BSP_IO_LED3=!BSP_IO_LED3;				
 			

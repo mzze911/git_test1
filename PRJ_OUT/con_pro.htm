@@ -3,7 +3,7 @@
 <title>Static Call Graph - [..\PRJ_OUT\con_pro.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\PRJ_OUT\con_pro.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Jun 17 18:38:37 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Apr 29 21:21:43 2025
 <BR><P>
 <H3>Maximum Stack Usage =        288 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -111,8 +111,8 @@ Function Pointers
 Global Symbols
 </H3>
 <P><STRONG><a name="[50]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
-<BR><BR>[Calls]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
-<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+<BR><BR>[Calls]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
 </UL>
 
 <P><STRONG><a name="[51]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter))
@@ -213,8 +213,8 @@ Global Symbols
 <P><STRONG><a name="[116]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
 
 <P><STRONG><a name="[52]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
-<BR><BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
-<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+<BR><BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
 </UL>
 
 <P><STRONG><a name="[117]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
@@ -671,7 +671,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[8c]"></a>BSP_LED_INIT</STRONG> (Thumb, 84 bytes, Stack size 40 bytes, bsp_led.o(i.BSP_LED_INIT))
+<P><STRONG><a name="[8c]"></a>BSP_LED_INIT</STRONG> (Thumb, 86 bytes, Stack size 40 bytes, bsp_led.o(i.BSP_LED_INIT))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = BSP_LED_INIT &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
@@ -787,9 +787,9 @@ Global Symbols
 <P><STRONG><a name="[9f]"></a>BSP_USART1_RX_RINGBUF_PROCESS_TASK</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, bsp_uart.o(i.BSP_USART1_RX_RINGBUF_PROCESS_TASK))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = BSP_USART1_RX_RINGBUF_PROCESS_TASK &rArr; BSP_USART1_RX_USR_CALL &rArr; FUNC_PC_INTERFACE_COM_UART_RX_ISR &rArr; FUNC_S_RING_QUEUE8_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ringbuf_get_len
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_USART1_RX_USR_CALL
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_USART1_RX_USR_CALL
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ringbuf_read
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ringbuf_get_len
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -955,8 +955,8 @@ Global Symbols
 <P><STRONG><a name="[a5]"></a>FUNC_IR_DECODE_WORK_EXTI</STRONG> (Thumb, 336 bytes, Stack size 16 bytes, func_ir_decode.o(i.FUNC_IR_DECODE_WORK_EXTI))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = FUNC_IR_DECODE_WORK_EXTI &rArr; get_time_tick &rArr; BSP_TIM2_GET_EXT_TICK
 </UL>
-<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_time_tick
-<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_time_tick
+<BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_time_tick
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_time_tick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI1_IRQHandler
 </UL>
@@ -1041,8 +1041,8 @@ Global Symbols
 <P><STRONG><a name="[ba]"></a>FUNC_PC_INTERFACE_COM_IC_DATA_INIT</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, func_pc_interface_com.o(i.FUNC_PC_INTERFACE_COM_IC_DATA_INIT))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = FUNC_PC_INTERFACE_COM_IC_DATA_INIT &rArr; FUNC_SDF_FIND_FORMAT5_DATA_FROM_FLOW_INIT
 </UL>
-<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_RING_QUEUE8_INIT
-<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_SDF_FIND_FORMAT5_DATA_FROM_FLOW_INIT
+<BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_SDF_FIND_FORMAT5_DATA_FROM_FLOW_INIT
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_RING_QUEUE8_INIT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_PC_INTERFACE_COM_INIT
 </UL>
@@ -1058,9 +1058,9 @@ Global Symbols
 <P><STRONG><a name="[be]"></a>FUNC_PC_INTERFACE_COM_PSCOM_RX_RESPOND_TASK</STRONG> (Thumb, 1080 bytes, Stack size 56 bytes, func_pc_interface_com.o(i.FUNC_PC_INTERFACE_COM_PSCOM_RX_RESPOND_TASK))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = FUNC_PC_INTERFACE_COM_PSCOM_RX_RESPOND_TASK &rArr; FUNC_S_CRC16_MODBUS_CAL
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;interface_fa_buf
+<BR>[Calls]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_CRC16_MODBUS_CAL
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;interface_fa_buf
 <LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_interface_fa_state
-<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_CRC16_MODBUS_CAL
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_PC_INTERFACE_COM_WORK_MAIN
 </UL>
@@ -1068,10 +1068,10 @@ Global Symbols
 <P><STRONG><a name="[c2]"></a>FUNC_PC_INTERFACE_COM_PSCOM_RX_RINGBUF_PROCESS_TASK</STRONG> (Thumb, 240 bytes, Stack size 40 bytes, func_pc_interface_com.o(i.FUNC_PC_INTERFACE_COM_PSCOM_RX_RINGBUF_PROCESS_TASK))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = FUNC_PC_INTERFACE_COM_PSCOM_RX_RINGBUF_PROCESS_TASK &rArr; FUNC_SDF_FIND_FORMAT5_DATA_FROM_FLOW_ON &rArr; FUNC_S_CRC16_MODBUS_CHECK
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_RING_QUEUE8_READ
-<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_RING_QUEUE8_GET_LEN
-<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_SDF_FIND_FORMAT5_DATA_FROM_FLOW_RESET
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_SDF_FIND_FORMAT5_DATA_FROM_FLOW_RESET
 <LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_SDF_FIND_FORMAT5_DATA_FROM_FLOW_ON
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_RING_QUEUE8_READ
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_RING_QUEUE8_GET_LEN
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_PC_INTERFACE_COM_WORK_MAIN
 </UL>
@@ -1213,8 +1213,7 @@ Global Symbols
 <P><STRONG><a name="[72]"></a>HAL_GPIO_Init</STRONG> (Thumb, 464 bytes, Stack size 40 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_INIT
-<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EXTI_INIT
+<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EXTI_INIT
 <LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DHT11_IO_1_MODE_OUT
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DHT11_IO_1_MODE_IN
 <LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_oled_io_config
@@ -1222,6 +1221,7 @@ Global Symbols
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_BEEP_INIT
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_INIT
 </UL>
 
 <P><STRONG><a name="[84]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_WritePin))
@@ -1266,13 +1266,13 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[7d]"></a>HAL_NVIC_EnableIRQ</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ))
-<BR><BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM3_INIT
-<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM2_INIT
-<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EXTI_INIT
+<BR><BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EXTI_INIT
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DMA_UART2_RX_INIT
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DMA_SPI2_TX_INIT
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DMA_SPI2_RX_INIT
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM3_INIT
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM2_INIT
 </UL>
 
 <P><STRONG><a name="[7c]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriority))
@@ -1281,14 +1281,14 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
 </UL>
 <BR>[Called By]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM3_INIT
-<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM2_INIT
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EXTI_INIT
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DMA_UART2_RX_INIT
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DMA_SPI2_TX_INIT
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DMA_SPI2_RX_INIT
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SYSTICK_INIT
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM3_INIT
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM2_INIT
 </UL>
 
 <P><STRONG><a name="[cd]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping))
@@ -1519,43 +1519,43 @@ Global Symbols
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DHT11_IO_MODE_IN
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DHT11_IO_D_WRITE
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_DHT11_IO_D_READ
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_Byte
 <LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2f
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_Byte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_DHT11_GET_TEMP_HUMI
 </UL>
 
-<P><STRONG><a name="[5c]"></a>main</STRONG> (Thumb, 524 bytes, Stack size 8 bytes, main.o(i.main))
+<P><STRONG><a name="[5c]"></a>main</STRONG> (Thumb, 548 bytes, Stack size 8 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 288 + Unknown Stack Size
 <LI>Call Chain = main &rArr; APP_OLED_DISPLAY_PICTURE &rArr; show_idle_picture_value &rArr; __2sprintf &rArr; _printf_char_common &rArr; __printf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_INIT
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM3_INIT
-<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM2_INIT
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EXTI_INIT
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SYSTICK_INIT
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SYSTICK_DELAY_MS
 <LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SYSCLOCK_INIT
-<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_STATE_MACHINE1_SCHANGE
-<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_STATE_MACHINE1_INIT
 <LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_KEY_INIT
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_BEEP_INIT
 <LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_USART1_RX_RINGBUF_PROCESS_TASK
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_UART1_INIT
-<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_DHT11_REFRESH_MAIN
-<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_DHT11_INIT
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_IR_NEC_KEY_INIT
-<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_IR_DECODE_INIT
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_INIT
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM3_INIT
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_TIM2_INIT
 <LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_OLED_INIT
 <LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_OLED_GRAM_REFRESH
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_ALONE_KEY_INIT
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_BEEP_INIT
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_NB_DELAY_MS_STATE
 <LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_NB_DELAY_MS_START
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_STATE_MACHINE1_SCHANGE
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_S_STATE_MACHINE1_INIT
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;APP_OLED_DISPLAY_PICTURE
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_PC_INTERFACE_COM_WORK_MAIN
 <LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_PC_INTERFACE_COM_INIT
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_DHT11_REFRESH_MAIN
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_DHT11_INIT
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_IR_NEC_KEY_INIT
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FUNC_IR_DECODE_INIT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>

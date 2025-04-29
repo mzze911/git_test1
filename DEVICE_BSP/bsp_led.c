@@ -26,7 +26,7 @@ void BSP_LED_INIT(void)
     GPIO_Initure.Speed=GPIO_SPEED_FREQ_HIGH;     //¸ßËÙ
     HAL_GPIO_Init(GPIOA,&GPIO_Initure);	
 //	
-	BSP_IO_LED1=1;
+	BSP_IO_LED1=0;
 //	BSP_IO_LED2=1;
 	
 	

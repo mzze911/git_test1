@@ -2749,7 +2749,7 @@ I (..\DEVICE_LIB\Inc\stm32f1xx_hal_mmc.h)(0x5D10A077)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\DEVICE_BSP\bsp_uart.h)(0x666EE0B2)
-I (..\DEVICE_BSP\bsp_spi.h)(0x66701227)
+I (..\DEVICE_BSP\bsp_spi.h)(0x66701253)
 F (..\DEVICE_BSP\bsp_exti.c)(0x66504999)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\DEVICE_CORE -I ..\DEVICE_LIB\Inc -I ..\DEVICE_BSP -I ..\USR_FUNC -I ..\USR_APP -I ..\USR_MAIN-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xB-o ..\prj_out\bsp_exti.o --omf_browse ..\prj_out\bsp_exti.crf --depend ..\prj_out\bsp_exti.d)
 I (..\DEVICE_BSP\bsp_exti.h)(0x664ED699)
 I (..\DEVICE_BSP\bsp_stm32f1_mzze.h)(0x66600BFF)
@@ -2985,7 +2985,7 @@ I (..\USR_FUNC\func_time_mark.h)(0x664C80FC)
 I (..\USR_FUNC\func_alone_key.h)(0x666AB4CC)
 I (..\USR_FUNC\func_ir_decode.h)(0x665155B9)
 I (..\USR_FUNC\func_beep.h)(0x666AB777)
-F (..\DEVICE_BSP\bsp_led.c)(0x666ED929)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\DEVICE_CORE -I ..\DEVICE_LIB\Inc -I ..\DEVICE_BSP -I ..\USR_FUNC -I ..\USR_APP -I ..\USR_MAIN-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xB-o ..\prj_out\bsp_led.o --omf_browse ..\prj_out\bsp_led.crf --depend ..\prj_out\bsp_led.d)
+F (..\DEVICE_BSP\bsp_led.c)(0x6810D263)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\DEVICE_CORE -I ..\DEVICE_LIB\Inc -I ..\DEVICE_BSP -I ..\USR_FUNC -I ..\USR_APP -I ..\USR_MAIN-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xB-o ..\prj_out\bsp_led.o --omf_browse ..\prj_out\bsp_led.crf --depend ..\prj_out\bsp_led.d)
 I (..\DEVICE_BSP\bsp_led.h)(0x666ED92A)
 I (..\DEVICE_BSP\bsp_stm32f1_mzze.h)(0x66600BFF)
 I (..\DEVICE_BSP\stm32f1xx.h)(0x5D1623CA)
@@ -3105,7 +3105,7 @@ I (..\USR_FUNC\func_pc_interface_com.h)(0x66600A8F)
 I (..\USR_FUNC\func_s_ring_queue.h)(0x61D963C4)
 I (..\USR_FUNC\func_s_data_flow_process.h)(0x666009EA)
 F (..\DEVICE_BSP\bsp_spi.c)(0x66700897)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\DEVICE_CORE -I ..\DEVICE_LIB\Inc -I ..\DEVICE_BSP -I ..\USR_FUNC -I ..\USR_APP -I ..\USR_MAIN-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xB-o ..\prj_out\bsp_spi.o --omf_browse ..\prj_out\bsp_spi.crf --depend ..\prj_out\bsp_spi.d)
-I (..\DEVICE_BSP\bsp_spi.h)(0x66701227)
+I (..\DEVICE_BSP\bsp_spi.h)(0x66701253)
 I (..\DEVICE_BSP\bsp_stm32f1_mzze.h)(0x66600BFF)
 I (..\DEVICE_BSP\stm32f1xx.h)(0x5D1623CA)
 I (..\DEVICE_BSP\stm32f103xb.h)(0x662E2307)
@@ -3339,7 +3339,7 @@ I (..\DEVICE_BSP\bsp_systick.h)(0x6660163F)
 I (..\USR_FUNC\func_oled.h)(0x66700CB3)
 I (..\USR_FUNC\func_s_delay.h)(0x638EE8D0)
 I (..\DEVICE_BSP\bsp_led.h)(0x666ED92A)
-I (..\DEVICE_BSP\bsp_spi.h)(0x66701227)
+I (..\DEVICE_BSP\bsp_spi.h)(0x66701253)
 F (..\DEVICE_BSP\bsp_soft_oled.c)(0x666ED030)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\DEVICE_CORE -I ..\DEVICE_LIB\Inc -I ..\DEVICE_BSP -I ..\USR_FUNC -I ..\USR_APP -I ..\USR_MAIN-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xB-o ..\prj_out\bsp_soft_oled.o --omf_browse ..\prj_out\bsp_soft_oled.crf --depend ..\prj_out\bsp_soft_oled.d)
 I (..\DEVICE_BSP\bsp_soft_oled.h)(0x666EC181)
 I (..\DEVICE_BSP\bsp_stm32f1_mzze.h)(0x66600BFF)
@@ -4406,7 +4406,7 @@ I (..\USR_MAIN\main.h)(0x664DDC06)
 I (..\USR_FUNC\func_s_state_machine.h)(0x62E76D4E)
 I (..\USR_FUNC\func_ir_decode.h)(0x665155B9)
 I (..\DEVICE_BSP\bsp_led.h)(0x666ED92A)
-F (..\USR_MAIN\main.c)(0x66700DFF)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\DEVICE_CORE -I ..\DEVICE_LIB\Inc -I ..\DEVICE_BSP -I ..\USR_FUNC -I ..\USR_APP -I ..\USR_MAIN-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xB-o ..\prj_out\main.o --omf_browse ..\prj_out\main.crf --depend ..\prj_out\main.d)
+F (..\USR_MAIN\main.c)(0x6810D25A)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\DEVICE_CORE -I ..\DEVICE_LIB\Inc -I ..\DEVICE_BSP -I ..\USR_FUNC -I ..\USR_APP -I ..\USR_MAIN-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xB-o ..\prj_out\main.o --omf_browse ..\prj_out\main.crf --depend ..\prj_out\main.d)
 I (..\USR_MAIN\main.h)(0x664DDC06)
 I (..\DEVICE_BSP\bsp_stm32f1_mzze.h)(0x66600BFF)
 I (..\DEVICE_BSP\stm32f1xx.h)(0x5D1623CA)
